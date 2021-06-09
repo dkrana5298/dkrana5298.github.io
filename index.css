@@ -120,10 +120,8 @@ strong {
     width: 90%;
     margin-left:5%;
   }
-  .intro strong {
-      padding-left: 0px;
-      font-size: 30px;
-      color: #33ccff;
+  input strong {
+      margin-left: 0px;
   }
   .intro h3 {
       color: #33ccff;
