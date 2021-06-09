@@ -1,0 +1,299 @@
+/* navigation bar */
+.navbar {
+    margin: 10px;
+}
+.navbar img {
+    width: 100px;
+    height: 50px;
+}
+.navbar li {
+ float: right;
+ list-style: none;
+ color: #525659;
+ margin: 10px;
+}
+/* input search for doctor and city */
+.input_container {
+    background-color: #aec2ea;
+    margin: 5px;
+}
+.input_container h2,p {
+    text-align: center;
+}
+.input_container_city {
+    background-color: white;
+    margin: 5px;
+    font-size: 20px;
+    margin: 20px;
+
+    
+}
+.input_container_city i{
+    margin: 10px;
+}
+.crosshair {
+    list-style: none;
+    float: right;
+    opacity: 0.5;
+}
+.input_container_city input{
+    outline: none;
+    border: none;
+    width: 80%;
+    font-size: 30px;
+    
+}
+.input_container_doctor {
+    margin: 5px;
+    background-color: white;
+    margin: 20px;
+    
+    
+}
+.input_container_doctor input{
+    width: 80%;
+    border: none;
+    outline: none;
+    font-size: 30px;
+}
+.input_container button {
+    margin-left: 40%;
+    background-color: black ;
+    width: 12rem;
+    height: 3rem;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+/* How it work */
+.how_it_work_container  {
+    
+}
+.how_it_work_container li {
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+    align-content: center;
+    padding-top: 20px;
+    color: #bfbfbf;
+}
+.how_it_work_container li:hover{
+    color: black;
+}
+.how_it_work_container h2{
+    text-align: center;
+}
+.how_it_work_container img {
+    align-self: center;
+    align-content: center;
+    text-align: center;
+}
+.image {
+    text-align: center;
+}
+strong {
+    color: #98b2e6;
+}
+/*world class experts doctor */
+.container1 {
+    background-color: #001a33;
+}
+.container1 h2 {
+ padding-top: 20px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    
+  }
+  .intro {
+    position: absolute;
+    bottom: 8px;
+    background-color: white;
+    width: 90%;
+    margin-left:5%;
+  }
+  .intro strong {
+      padding-left: 0px;
+      font-size: 30px;
+      color: #33ccff;
+  }
+  .intro h3 {
+      color: #33ccff;
+  }
+  .intro p,h3 {
+      text-align: left;
+      margin-left: 10px;
+      padding: 1px;
+      line-height: 5px;
+  }
+  /* Featured medical treatment */
+  .container3 h2{
+      font-weight: bold;
+  }
+.container3_1 {
+    position: relative;
+    text-align: center;
+    
+     }
+.specialists {
+        position: absolute;
+        bottom: 8px;
+        width: 90%; 
+        margin-left:5%;
+      }  
+.container3 h2 {
+      color: black;
+  }
+.container3 p{
+      color: black;
+  }
+.container3_1 h3,h5 {
+    color: white;
+    line-height: 5px;
+}
+/* Exclusive Services */
+.container4 {
+    background-color: #efeff5;
+    margin: 5px;
+}  
+.container4 h2{
+    padding-top: 20px;
+}
+.travel {
+    background-color: white;
+    margin-left: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 180px;
+    border-radius: 10px;
+}
+.travel h3 {
+    text-align: center;
+}
+.food {
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 180px;
+}
+.food h3 {
+    text-align: center;
+}
+.accomodation {
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 180px;
+}
+.accomodation h3 {
+    text-align: center;
+}
+.lab {
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 180px;
+}
+.lab h3 {
+    text-align: center;
+}
+.report {
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 180px;
+}
+.report h3 {
+    text-align: center;
+}
+.ambulance {
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 180px;
+}
+.ambulance h3 {
+    text-align: center;
+}
+.control {
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    width: 1px;
+    
+}
+/* help section */
+.container5 {
+    background-color: #8fcaf1;
+    padding: 1rem;
+    align-items: center;
+}
+.container5 p {
+    color: #021433;
+}
+.container5 h2 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container5 button {
+  margin-left: 40%;
+  background-color: #0099ff ;
+  width: 12rem;
+  height: 3rem;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+/* footer */
+.footer {
+    background-color: #021433;
+    padding: 1rem;
+    
+}
+ul {
+    list-style: none;
+    text-align: center;
+}
+ul li {
+    color: #cccccc;
+    padding: 10px;
+    font-size: 12px;
+}
+.footer p {
+    padding-bottom: 20px;
+    color: #cccccc;
+    font-size: 12px;
+}
+.social {
+    text-align: center;
+    color: #cccccc;
+    font-size: 12px;
+
+}
+.social i {
+    padding: 10px;
+    color: #cccccc;
+    font-size: 12px;
+}
+.footer img{
+    margin-left: 45%;
+    height: 50px;
+    width: 100px;
+    padding-top: 20px;
+}
