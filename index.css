@@ -35,6 +35,7 @@
     list-style: none;
     float: right;
     opacity: 0.5;
+    margin-left: 10px;
 }
 .input_container_city input{
     outline: none;
