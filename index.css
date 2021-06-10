@@ -36,7 +36,7 @@
     list-style: none;
     float: right;
     opacity: 0.5;
-    margin-left: 10px;
+    
 }
 .input_container_city input{
     outline: none;
@@ -51,17 +51,14 @@
     margin: 20px;
     border-radius: 10px;
     width: 80%;
-    
-
-    
-    
+    padding-right: 5px;  
 }
 .input_container_doctor input{
     outline: none;
     border: none;
     width: 80%;
     font-size: 20px;
-    margin: 5px;
+    margin: 8px;
 }
 .input_container button {
     margin-left: 40%;
