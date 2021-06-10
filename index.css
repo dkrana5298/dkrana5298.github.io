@@ -23,8 +23,9 @@
 .input_container_city {
     background-color: white;
     margin: 5px;
-    font-size: 20px;
     margin: 20px;
+    border-radius: 10px;
+    width: 80%;
 
     
 }
@@ -40,21 +41,24 @@
     outline: none;
     border: none;
     width: 80%;
-    font-size: 30px;
+    font-size: 20px;
     
 }
 .input_container_doctor {
-    margin: 5px;
     background-color: white;
+    margin: 5px;
+    font-size: 30px;
     margin: 20px;
+    border-radius: 10px;
+    width: 80%;
     
     
 }
 .input_container_doctor input{
-    width: 80%;
-    border: none;
     outline: none;
-    font-size: 30px;
+    border: none;
+    width: 80%;
+    font-size: 20px;
 }
 .input_container button {
     margin-left: 40%;
@@ -68,9 +72,7 @@
     border-radius: 10px;
 }
 /* How it work */
-.how_it_work_container  {
-    
-}
+
 .how_it_work_container li {
     list-style: none;
     border: 1px solid black;
@@ -161,7 +163,12 @@ strong {
 .container4 {
     background-color: #efeff5;
     margin: 5px;
+    border-radius: 15px;
 }  
+.services {
+    border-radius: 15px ;
+    margin: 20px;
+}
 .container4 h2{
     padding-top: 20px;
 }
@@ -238,6 +245,7 @@ strong {
     background-color: #8fcaf1;
     padding: 1rem;
     align-items: center;
+    border-radius: 15px;
 }
 .container5 p {
     color: #021433;
