@@ -47,7 +47,6 @@
 }
 .input_container_doctor {
     background-color: white;
-    margin: 8px;
     font-size: 30px;
     margin: 20px;
     border-radius: 10px;
@@ -62,6 +61,7 @@
     border: none;
     width: 80%;
     font-size: 20px;
+    margin: 5px;
 }
 .input_container button {
     margin-left: 40%;
