@@ -25,16 +25,17 @@
     margin: 20px;
     border-radius: 10px;
     width: 80%;
-
+    height: 40px;
     
 }
 .input_container_city i{
-    margin: 10px;
+    margin-left: 5px;
 }
 .crosshair {
     list-style: none;
     float: right;
     opacity: 0.5;
+    margin: 5px;
 
 }
 .input_container_city input{
