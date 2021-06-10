@@ -81,9 +81,9 @@
     font-size: 20px;
     height: 50px;
     text-align: center;
-    margin-top: 10px;
+    margin: 10px;
     align-content: center;
-    padding-top: 20px;
+    padding-top: 10px;
     color: #bfbfbf;
 }
 .how_it_work_container li:hover{
