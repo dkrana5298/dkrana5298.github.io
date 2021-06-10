@@ -22,7 +22,6 @@
 }
 .input_container_city {
     background-color: white;
-    margin: 5px;
     margin: 20px;
     border-radius: 10px;
     width: 80%;
@@ -47,7 +46,6 @@
 }
 .input_container_doctor {
     background-color: white;
-    font-size: 30px;
     margin: 20px;
     border-radius: 10px;
     width: 80%;
