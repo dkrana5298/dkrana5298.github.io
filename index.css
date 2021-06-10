@@ -51,14 +51,14 @@
     margin: 20px;
     border-radius: 10px;
     width: 80%;
-    padding-right: 5px;  
+    padding-right: 8px;  
 }
 .input_container_doctor input{
     outline: none;
     border: none;
     width: 80%;
     font-size: 20px;
-    margin: 8px;
+    margin: 10px;
 }
 .input_container button {
     margin-left: 40%;
