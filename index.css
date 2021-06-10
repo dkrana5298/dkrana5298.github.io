@@ -16,6 +16,7 @@
 .input_container {
     background-color: #aec2ea;
     margin: 5px;
+    text-align: center;
 }
 .input_container h2,p {
     text-align: center;
