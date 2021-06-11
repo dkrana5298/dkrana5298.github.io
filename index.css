@@ -4,7 +4,7 @@
 }
 .navbar img {
     width: 100px;
-    height: 50px;
+    height: 30px;
 }
 .navbar li {
  float: right;
@@ -16,38 +16,47 @@
 .input_container {
     background-color: #aec2ea;
     margin: 5px;
-    text-align: center;
+    
+}
+.input_container h2 {
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .input_container h2,p {
     text-align: center;
+    margin: 20px;
 }
 .input_container_city {
     background-color: white;
     margin: 20px;
-    
+
     width: 80%;
     height: 40px;
+    align-self: center;
     
+}
+.input_container_city i{
+    margin-left: 5px;
 }
 
 .crosshair {
     list-style: none;
     float: right;
-    
-    margin: 5px;
+    margin: 10px;
 
 }
 .input_container_city input{
     outline: none;
     border: none;
     width: 80%;
-    font-size: 20px;
+    font-size: 15px;
+    margin-top: 8px;
     
 }
 .input_container_doctor {
     background-color: white;
     margin: 20px;
-    
     width: 80%;
     padding-right: 5px;
     height: 40px;
@@ -58,19 +67,21 @@
     outline: none;
     border: none;
     width: 80%;
-    font-size: 20px;
-    margin-left: 5px;
+    font-size: 15px;
+    margin: 5px;
 }
 .input_container button {
-    
+    align-self: center;
     background-color: black ;
-    width: 12rem;
+    width: 10rem;
     height: 3rem;
     color: white;
     font-size: 15px;
     font-weight: bold;
     margin-bottom: 20px;
     border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 /* How it work */
 
