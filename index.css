@@ -29,9 +29,7 @@
     height: 40px;
     
 }
-.input_container_city i{
-    margin-left: 5px;
-}
+
 .crosshair {
     list-style: none;
     float: right;
@@ -60,10 +58,10 @@
     border: none;
     width: 80%;
     font-size: 20px;
-    margin: 5px;
+    margin-left: 5px;
 }
 .input_container button {
-    margin-left: 40%;
+    
     background-color: black ;
     width: 12rem;
     height: 3rem;
