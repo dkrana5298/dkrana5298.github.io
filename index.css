@@ -162,80 +162,41 @@ strong {
     line-height: 5px;
 }
 /* Exclusive Services */
-.container4 {
-    background-color: #efeff5;
-    margin: 5px;
-    border-radius: 15px;
-}  
-.services {
-    border-radius: 15px ;
-    margin: 20px;
+.services{
+	background-color: #f5f5f5;
+		font-family: "nexa-bold";
+		text-align: center;
+		color: blue;
+        display: flex;
+        width:500px;
+        height:700px;
+        border: 1px solid black;
+        margin: 10px;
+        border-radius: 10px;
 }
-.container4 h2{
-    padding-top: 20px;
+.mainbox{
+        align-items: center;
+        color: #809c99;
+        display: flex;
+          
 }
-.travel {
-    background-color: white;
-    margin-left: 20px;
-    margin: 10px;
-    text-align: center;
-    width: 180px;
-    border-radius: 10px;
+.smallbox{        
+		border-radius: 1rem;
+        height:150px;
+        width:200px;
+        background-color:white;
+        margin-top: 20px;
+        align-content: center;
+        margin-left: 25px;
+        text-align: center;
 }
-.travel h3 {
-    text-align: center;
+.smallbox img {
+    width: 100px;
+    height: 100px;
 }
-.food {
-    background-color: white;
-    border-radius: 20px;
-    margin: 10px;
-    text-align: center;
-    width: 180px;
+.smallbox h3{
+    font-size: 20px;
 }
-.food h3 {
-    text-align: center;
-}
-.accomodation {
-    background-color: white;
-    border-radius: 20px;
-    margin: 10px;
-    text-align: center;
-    width: 180px;
-}
-.accomodation h3 {
-    text-align: center;
-}
-.lab {
-    background-color: white;
-    border-radius: 20px;
-    margin: 10px;
-    text-align: center;
-    width: 180px;
-}
-.lab h3 {
-    text-align: center;
-}
-.report {
-    background-color: white;
-    border-radius: 20px;
-    margin: 10px;
-    text-align: center;
-    width: 180px;
-}
-.report h3 {
-    text-align: center;
-}
-.ambulance {
-    background-color: white;
-    border-radius: 20px;
-    margin: 10px;
-    text-align: center;
-    width: 180px;
-}
-.ambulance h3 {
-    text-align: center;
-}
-
 /* help section */
 .container5 {
     background-color: #8fcaf1;
