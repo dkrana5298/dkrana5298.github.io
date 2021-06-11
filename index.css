@@ -175,7 +175,7 @@ strong {
     display: flex;
     text-align: center;
     margin: 5px;
-    
+    margin: 0% 30% 0% 30%;
 
       
 }
@@ -185,7 +185,7 @@ strong {
     width:200px;
     background-color:white;
     margin: 5px;
-    
+
 }
 .smallbox img {
     text-align: center;
