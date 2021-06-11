@@ -235,19 +235,14 @@ strong {
 .ambulance h3 {
     text-align: center;
 }
-.control {
-    background-color: white;
-    margin: 10px;
-    text-align: center;
-    width: 1px;
-    
-}
+
 /* help section */
 .container5 {
     background-color: #8fcaf1;
     padding: 1rem;
     align-items: center;
     border-radius: 15px;
+    text-align: center;
 }
 .container5 p {
     color: #021433;
@@ -257,7 +252,7 @@ strong {
     font-family: Arial, Helvetica, sans-serif;
 }
 .container5 button {
-  margin-left: 40%;
+  
   background-color: #0099ff ;
   width: 12rem;
   height: 3rem;
@@ -272,6 +267,7 @@ strong {
 .footer {
     background-color: #021433;
     padding: 1rem;
+    text-align: center;
     
 }
 ul {
@@ -300,7 +296,7 @@ ul li {
     font-size: 12px;
 }
 .footer img{
-    margin-left: 45%;
+    
     height: 50px;
     width: 100px;
     padding-top: 20px;
