@@ -60,27 +60,27 @@
 .input_container_city input{
     outline: none;
     border: none;
-    width: 80%;
+    width: 90%;
     font-size: 15px;
     margin-top: 8px;
-    margin-left: 0px;
-    padding-left: 0px;
+    
+    
     
     
 }
 .input_container_doctor {
     background-color: white;
-    margin: 20px;
+    margin: 15px;
     width: 90%;
     padding-right: 5px;
     height: 40px;
-    
+    margin-top: 10px;
     
 }
 .input_container_doctor input{
     outline: none;
     border: none;
-    width: 80%;
+    width: 90%;
     font-size: 15px;
     margin-top: 8px;
     margin-left: 0px;
