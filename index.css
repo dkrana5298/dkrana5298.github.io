@@ -16,35 +16,46 @@
 .input_container {
     background-color: #aec2ea;
     margin: 5px;
+    align-self: center;
+    text-align: center;
     
 }
 .input_container h2 {
     padding-top: 20px;
     font-weight: bold;
+    color: #00001a;
     font-family: Arial, Helvetica, sans-serif;
 }
 .input_container h2,p {
     text-align: center;
     margin: 20px;
 }
-.input_container_city {
-    background-color: white;
-    margin: 20px;
-
-    width: 80%;
-    height: 40px;
-    align-self: center;
-    
+.input_container p {
+    color: #000033;
 }
-.input_container_city i{
+
+.map {
+    list-style: none;
+    float: left;
     margin-left: 5px;
+    margin-top: 8px;
+    
 }
 
 .crosshair {
     list-style: none;
     float: right;
-    margin: 5px;
+    margin-top: 8px;
+    margin-right: 5px;
 
+}
+.input_container_city {
+    background-color: white;
+    margin: 20px;
+    width: 90%;
+    height: 40px;
+   
+    
 }
 .input_container_city input{
     outline: none;
@@ -52,12 +63,15 @@
     width: 80%;
     font-size: 15px;
     margin-top: 8px;
+    margin-left: 0px;
+    padding-left: 0px;
+    
     
 }
 .input_container_doctor {
     background-color: white;
     margin: 20px;
-    width: 80%;
+    width: 90%;
     padding-right: 5px;
     height: 40px;
     
@@ -68,22 +82,25 @@
     border: none;
     width: 80%;
     font-size: 15px;
-    margin: 5px;
+    margin-top: 8px;
+    margin-left: 0px;
 }
 .input_container button {
     align-self: center;
-    background-color: black ;
-    width: 10rem;
-    height: 3rem;
+    background-color: #000033;
+    width: 9rem;
+    height: 2.5rem;
     color: white;
     font-size: 15px;
     font-weight: bold;
     margin-bottom: 20px;
-    border-radius: 10px;
-    margin-left: 30%;
-    margin-right: 30%;
+    
+    
 }
 /* How it work */
+.how_it_work_container p {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .how_it_work_container li {
     list-style: none;
@@ -91,17 +108,18 @@
     border-radius: 10px;
     font-size: 20px;
     height: 50px;
-    text-align: center;
     margin: 10px;
-    align-content: center;
-    padding-top: 10px;
-    color: #bfbfbf;
+    padding-top: 20px;
+    color: #00001a;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .how_it_work_container li:hover{
     color: black;
 }
 .how_it_work_container h2{
     text-align: center;
+    color: #00001a;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .how_it_work_container img {
     align-self: center;
@@ -114,6 +132,7 @@
 }
 strong {
     color: #98b2e6;
+    margin: 5px;
 }
 /*world class experts doctor */
 .container1 {
@@ -140,16 +159,21 @@ strong {
   }
   .intro h3 {
       color: #33ccff;
-  }
-  .intro p,h3 {
       text-align: left;
       margin-left: 10px;
       padding: 1px;
       line-height: 5px;
   }
+  .intro P {
+      text-align: left;
+      line-height: 0px;
+      margin-left: 10px;
+      padding: 1px;
+  }
   /* Featured medical treatment */
   .container3 h2{
       font-weight: bold;
+      
   }
 .container3_1 {
     position: relative;
@@ -161,7 +185,12 @@ strong {
         bottom: 8px;
         width: 90%; 
         margin-left:5%;
+        background-color: black;
+        opacity: 0.5;
       }  
+ .specialists h3,h5 {
+     opacity: 0.9;
+ }     
 .container3 h2 {
       color: black;
   }
@@ -170,7 +199,9 @@ strong {
   }
 .container3_1 h3,h5 {
     color: white;
-    line-height: 5px;
+    line-height: 1px;
+    text-align: left;
+    margin-left: 10px;
 }
 /* Exclusive Services */
 
