@@ -228,6 +228,7 @@ strong {
 .container4 {
     background-color: #efeff5;
     text-align: center;
+    padding-bottom: 25px;
 }  
 .container4 h2{
     font-family: Arial, Helvetica, sans-serif;
@@ -245,7 +246,7 @@ strong {
     color: #809c99;
     display: flex;
     text-align: center;
-    margin-left: 5px;
+    margin-left: 6px;
 }
 .smallbox{        
     border-radius: 1rem;
