@@ -31,8 +31,9 @@
     text-align: center;
     margin: 20px;
     color: #000033;
-    font-family:  inherit;
-    letter-spacing: 1px;
+    font-family:  monospace;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .map {
@@ -100,9 +101,9 @@
 }
 /* How it work */
 .how_it_work_container p {
-    font-style: inherit;
-    letter-spacing: 1px;
-    line-height: 20px;
+    font-family:  monospace;
+    font-size: 15px;
+    font-weight: 400;
     margin: 10px;
 }
 
@@ -150,8 +151,9 @@ strong {
  font-family: Arial, Helvetica, sans-serif;
 }
 .container1 p {
-    font-style: inherit;
-    letter-spacing: 1px;
+    font-family:  monospace;
+    font-size: 15px;
+    font-weight: 400;
     margin: 5px;
     margin-bottom: 20px;
     line-height: 20px;
@@ -191,9 +193,11 @@ strong {
       
   }
   .container3 p{
-      letter-spacing: 1px;
+      
       text-align: center;
-      font-family: inherit;
+      font-family:  monospace;
+    font-size: 15px;
+    font-weight: 400;
   }
 .container3_1 {
     position: relative;
@@ -237,8 +241,9 @@ strong {
     padding-top: 20px;
 }
 .container4 p {
-    letter-spacing: 1px;
-    font-family: inherit;
+    font-family:  monospace;
+    font-size: 15px;
+    font-weight: 400;
     margin: 5px;
 }
 .mainbox{
@@ -278,7 +283,9 @@ strong {
 }
 .container5 p {
     color: #021433;
-    font-family: inherit;
+    font-family:  monospace;
+    font-size: 15px;
+    font-weight: 400;
 }
 .container5 h2 {
     font-weight: bold;
