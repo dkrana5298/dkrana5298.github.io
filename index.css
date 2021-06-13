@@ -104,7 +104,7 @@
     font-family:  monospace;
     font-size: 15px;
     font-weight: 400;
-    margin: 10px;
+    margin: 15px;
 }
 
 .how_it_work_container li {
@@ -140,7 +140,8 @@
 }
 strong {
     color: #bfbfbf;
-    margin: 5px;
+    margin: 10px;
+    padding-left: 10px;
 }
 /*world class experts doctor */
 .container1 {
