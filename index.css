@@ -1,16 +1,20 @@
 /* navigation bar */
 .navbar {
-    margin: 10px;
+    margin: 5px;
+    margin-top: 10px;
+    
 }
 .navbar img {
     width: 100px;
     height: 30px;
+    
 }
 .navbar li {
  float: right;
  list-style: none;
  color: #525659;
- margin: 10px;
+ margin: 5px;
+ 
 }
 /* input search for doctor and city */
 .input_container {
@@ -19,9 +23,11 @@
     align-self: center;
     text-align: center;
     
+    
 }
 .input_container h1 {
-    padding-top: 20px;
+    margin: 10px;
+    padding-top: 15px;
     text-align: center;
     font-weight: bold;
     color: #00001a;
@@ -29,35 +35,35 @@
 }
 .input_container p {
     text-align: center;
-    margin: 20px;
     color: #000033;
     font-family:  monospace;
     font-size: 15px;
     font-weight: 400;
 }
+.input_container_city {
+    background-color: white;
+    margin-left: 2%;
+    margin-right: 2%s;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 95%;
+    height: 40px;
+    
 
+}
 .map {
     list-style: none;
     float: left;
-    margin-left: 5px;
     margin-top: 8px;
-    
+    margin-left: 5px;
 }
 
 .crosshair {
     list-style: none;
     float: right;
-    margin-top: 8px;
-    margin-right: 5px;
-
-}
-.input_container_city {
-    background-color: white;
-    margin: 20px;
-    width: 90%;
-    height: 40px;
-   
+    margin: 8px;
     
+
 }
 .input_container_city input{
     outline: none;
@@ -72,11 +78,12 @@
 }
 .input_container_doctor {
     background-color: white;
-    margin: 15px;
-    width: 90%;
-    padding-right: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 20px;
+    width: 95%;
     height: 40px;
-    margin-top: 10px;
+    
     
 }
 .input_container_doctor input{
@@ -105,6 +112,11 @@
     font-size: 15px;
     font-weight: 400;
     margin: 15px;
+    text-align: center;
+}
+.how_it_work_container h3 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .how_it_work_container li {
@@ -144,26 +156,35 @@ strong {
     padding-left: 10px;
 }
 /*world class experts doctor */
-.container1 {
+.world_class_doctor {
     background-color: #001a33;
 }
-.container1 h2 {
+.world_class_doctor h2 {
  padding-top: 20px;
  font-family: Arial, Helvetica, sans-serif;
+ color: white;
+ text-align: center;
 }
-.container1 p {
+.world_class_doctor p {
     font-family:  monospace;
     font-size: 15px;
     font-weight: 400;
     margin: 5px;
     margin-bottom: 20px;
     line-height: 20px;
+    color: white;
+    text-align: center;
 }
-.container {
+.doctor_container {
     position: relative;
     text-align: center;
     
+    
   }
+.doctor_container img {
+    width: 90%;
+    height: 500px;
+}  
   .intro {
     position: absolute;
     bottom: 8px;
@@ -186,21 +207,22 @@ strong {
       line-height: 0px;
       margin-left: 10px;
       padding: 1px;
+      color: black;
   }
   /* Featured medical treatment */
-  .container3 h2{
+  .medical_treatment h2{
       font-weight: bold;
       font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
       
   }
-  .container3 p{
-      
+  .medical_treatment p{
       text-align: center;
       font-family:  monospace;
-    font-size: 15px;
-    font-weight: 400;
+      font-size: 15px;
+      font-weight: 400;
   }
-.container3_1 {
+.treatment_doctor_image{
     position: relative;
     text-align: center;
     
@@ -216,13 +238,8 @@ strong {
  .specialists h3,h5 {
      opacity: 0.9;
  }     
-.container3 h2 {
-      color: black;
-  }
-.container3 p{
-      color: black;
-  }
-.container3_1 h3,h5 {
+
+.treatment_doctor_image h3,h5 {
     color: white;
     line-height: 1px;
     text-align: left;
@@ -230,22 +247,23 @@ strong {
 }
 /* Exclusive Services */
 
-.container4 {
+.services {
     background-color: #efeff5;
     text-align: center;
     padding-bottom: 25px;
 }  
-.container4 h2{
+.services h2{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    
     padding-top: 20px;
+    text-align: center;
 }
-.container4 p {
+.services p {
     font-family:  monospace;
     font-size: 15px;
     font-weight: 400;
     margin: 5px;
+    text-align: center;
 }
 .mainbox{
     align-items: center;
@@ -274,7 +292,7 @@ strong {
 }
 
 /* help section */
-.container5 {
+.help {
     background-color: #8fcaf1;
     padding: 1rem;
     align-items: center;
@@ -282,17 +300,18 @@ strong {
     
     text-align: center;
 }
-.container5 p {
+.help p {
     color: #021433;
     font-family:  monospace;
     font-size: 15px;
     font-weight: 400;
 }
-.container5 h2 {
+.help h2 {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
-.container5 button {
+.help button {
   
   background-color: #0099ff ;
   width: 12rem;
