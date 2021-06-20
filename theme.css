@@ -1,0 +1,21 @@
+h1,h2,h3,h5,h6 ,p {
+    font-weight: 'Nexa Bold';
+    line-height: 20px;
+    letter-spacing: 1px;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: white;
+    text-align: center;
+}
+button {
+    text-align: center;
+    background-color: #000033;
+    width: 9rem;
+    height: 2.5rem;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+body {
+    background-color: white;
+}
