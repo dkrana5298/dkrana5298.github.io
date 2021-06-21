@@ -1,12 +1,64 @@
-h1,h2,h3,h5,h6 ,p {
-    font-weight: 'Nexa Bold';
-    line-height: 20px;
-    letter-spacing: 1px;
-    justify-content: center;
-    text-transform: uppercase;
-    background-color: white;
-    text-align: center;
+@font-face {
+    font-family: Nexa-Bold;
+    src: url(../assets/Nexa-Bold.otf);
+  }
+@font-face {
+    font-family: Nexa-Light;
+    src: url(../assets/Nexa-Light.otf);
+  }
+h1 {
+    font-size: 2rem;
+    color: #082740;
+    font-family: Nexa-Bold;
+  }
+h2 {
+    font-size: 1.8rem;
+    color: #082740;
+    font-family: Nexa-Bold;
+  }
+h3{
+    font-size: 1.6rem;
+    color: #082740;
+    font-family: Nexa-Bold;
 }
+h4 {
+    font-size: 1.4rem;
+    color: #082740;
+    font-family: Nexa-Bold;
+  }
+  
+h5 {
+    font-size: 1.2rem;
+    color: #082740;
+    font-family: Nexa-Bold;
+  }
+  
+h6 {
+    font-size: 1rem;
+    color: #082740;
+    font-family: Nexa-Bold;
+    }
+
+input{
+    height: 1.5rem;
+    font-family: Nexa-Light;
+    font-size: 1rem;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    font-family: Nexa-Light;
+}
+p {
+    font-family: Nexa-Light;
+    font-size: 1rem;
+    line-height: 20px;
+    margin: 1rem 0;
+}
+section{
+    padding: 2rem;
+} 
+
 button {
     text-align: center;
     background-color: #000033;
@@ -16,6 +68,7 @@ button {
     font-size: 15px;
     margin-bottom: 20px;
 }
-body {
-    background-color: white;
+ul,ol {
+    list-style: none;
+    font-size: 1.5rem;
 }
