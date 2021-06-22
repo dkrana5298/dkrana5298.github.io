@@ -43,7 +43,7 @@
 .input_container_city {
     background-color: white;
     margin-left: 2%;
-    margin-right: 2%s;
+    margin-right: 2%;
     margin-top: 20px;
     margin-bottom: 10px;
     width: 95%;
@@ -61,7 +61,8 @@
 .crosshair {
     list-style: none;
     float: right;
-    margin: 8px;
+    margin: auto;
+    margin-top: 8px;
     
 
 }
