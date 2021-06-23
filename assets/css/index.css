@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Nexa-Bold;
+    src: url(../assets/fonts/Nexa-Bold.otf);
+  }
+  
+  @font-face {
+    font-family: Nexa-Light;
+    src: url(../assets/fonts/Nexa-Light.otf);
+  }
+
 /* navigation bar */
 .navbar {
     margin: 5px;
@@ -27,18 +37,19 @@
 }
 .input_container h1 {
     margin: 10px;
-    padding-top: 15px;
+    padding-top: 25px;
     text-align: center;
-    font-weight: bold;
     color: #00001a;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
 }
 .input_container p {
+    font-family: Nexa-Light;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin: 1rem 0;
     text-align: center;
-    color: #000033;
-    font-family:  monospace;
-    font-size: 15px;
-    font-weight: 400;
 }
 .input_container_city {
     background-color: white;
@@ -73,6 +84,7 @@
     width: 85%;
     font-size: 15px;
     margin-top: 8px;
+    text-align: left;
     
 }
 .input_container_doctor {
@@ -99,7 +111,7 @@
     height: 2.5rem;
     color: white;
     font-size: 15px;
-    
+    letter-spacing: 1px;
     margin-bottom: 20px;
     
     
@@ -107,10 +119,11 @@
 /* How it work */
 .how_it_work_container p {
     font-family:  monospace;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 400;
     margin: 15px;
     text-align: center;
+    font-family: Nexa-Light;
 }
 .how_it_work_container h3 {
     text-align: center;
@@ -150,7 +163,7 @@
 }
 strong {
     color: #bfbfbf;
-    margin: 10px;
+    margin: 5px;
     padding-left: 10px;
 }
 /*world class experts doctor */
