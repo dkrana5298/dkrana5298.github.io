@@ -12,14 +12,11 @@
 .navbar {
     margin: 5px;
     margin-top: 10px;
-    
-    
 }
 .navbar img {
     width: 100px;
     height: 30px;
     padding-left: 10px;
-    
 }
 .navbar li {
  float: right;
@@ -32,30 +29,25 @@
 }
 /* input search for doctor and city */
 .input_container {
-    background-color: #99bbff;
+    background-color: #93bede;
     margin: 5px;
     align-self: center;
     text-align: center;
-    
-    
 }
 .input_container h1 {
-    margin: 10px;
-    padding-top: 25px;
+    padding: 1.5rem 1.5rem 0 1.5rem;
     text-align: center;
-    color: #00001a;
+    color: #203554;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
 }
 .input_container p {
-    font-family: Nexa-Light;
-    font-size: 1.2rem;
+    font-family: Nexa-Bold;
+    font-size: 1rem;
     letter-spacing: 1px;
-    line-height: 25px;
-    margin: 1rem 0;
     text-align: center;
-    color: #00001a;
-    opacity: 0.7;
+    color: #3e5d7c;
+    padding: 0 1rem;
 }
 .input_container_city {
     background-color: white;
@@ -65,8 +57,6 @@
     margin-bottom: 10px;
     width: 95%;
     height: 40px;
-    
-
 }
 .map {
     list-style: none;
@@ -74,15 +64,11 @@
     margin-top: 8px;
     margin-left: 5px;
 }
-
 .crosshair {
     list-style: none;
     float: right;
     padding: 5px;
     margin-top: 5px;
-    
-    
-
 }
 .input_container_city input{
     outline: none;
@@ -91,7 +77,6 @@
     font-size: 15px;
     margin-top: 8px;
     text-align: left;
-    
 }
 .input_container_doctor {
     background-color: white;
@@ -100,7 +85,6 @@
     margin-bottom: 20px;
     width: 95%;
     height: 40px;
-    
 }
 .input_container_doctor input{
     outline: none;
@@ -112,29 +96,30 @@
 }
 .input_container button {
     align-self: center;
-    background-color: #000033;
-    width: 9rem;
-    height: 2.5rem;
-    color: white;
-    font-size: 15px;
+    background-color: #151e3b;
+    color: #cfd7e2;
+    font-size: 1rem;
     letter-spacing: 1px;
     margin-bottom: 20px;
-    
-    
+    border: none;
+    outline: none;
+    padding: 10px 2.5rem ;
 }
 /* How it work */
 .how_it_work_container p {
     font-family: Nexa-Light;
-    font-size: 1.2rem;
+    font-size: 1rem;
     letter-spacing: 1px;
     line-height: 25px;
-    margin: 1rem 0;
+    margin: 1rem ;
     text-align: center;
-    color: #00001a;
-    opacity: 0.7;
+    color: #5b5b63;
+    
 }
 .how_it_work_container h3 {
     text-align: center;
+    color: #23283e;
+    font-size: 1.4rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -153,13 +138,16 @@
     text-transform: capitalize;
 }
 .how_it_work_container #fix {
-    color: black;
+    color:#272940;
+    border: 1.8px solid black;
+    font-size: 1.5rem;
 }
 .how_it_work_container h2{
     text-align: center;
     color: #00001a;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .how_it_work_container img {
     align-self: center;
     align-content: center;
@@ -181,25 +169,27 @@ strong {
 .world_class_doctor h2 {
  padding-top: 20px;
  font-family: Arial, Helvetica, sans-serif;
- font-size: 2rem;
- color: white;
+ font-size: 1.5rem;
+ color: #fefffd;
  text-align: center;
  margin: 1rem;
+ text-transform: capitalize;
 }
 .world_class_doctor p {
     font-family: Nexa-Light;
-    font-size: 1.2rem;
+    font-size: 1rem;
     letter-spacing: 1px;
-    line-height: 25px;
-    margin: 1rem ;
+    line-height: 1.2rem;
+    padding:0.3rem 1rem ;
     text-align: center;
-    color: white;
-    opacity: 0.8;
+    color: #f0f6f4;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 .doctor_container {
     position: relative;
     text-align: center;
-    
+    margin: 1rem;
     
   }
 .doctor_container img {
@@ -215,20 +205,25 @@ strong {
   }
   
   .intro h3 {
-      color: #33ccff;
+      color: #117be1;
       text-align: left;
-      margin-left: 10px;
       padding: 1px;
       line-height: 5px;
+  }
+  .intro h3::before {
+      content:"----- ";
+      color: #0173b1;
+      padding-left: 0;
+      margin-left: 0;
   }
   .intro P {
       font-style: normal;
       letter-spacing: 0px;
       text-align: left;
       line-height: 5px;
-      margin-left: 10px;
+      margin-left: 2.2rem;
       padding: 1px;
-      color: black;
+      color: #555555;
   }
   /* Featured medical treatment */
   .medical_treatment h2{
@@ -236,6 +231,7 @@ strong {
     font-size: 2rem;
     text-align: center;
     margin: 1rem;
+    color: #222840;
       
   }
   .medical_treatment p{
@@ -245,7 +241,7 @@ strong {
     line-height: 25px;
     margin: 1rem ;
     text-align: center;
-    color: #00001a;
+    color: #474751;
     opacity: 0.7;
   }
 .treatment_doctor_image{
@@ -259,13 +255,9 @@ strong {
         bottom: 5px;
         width: 90%; 
         margin-left:5%;
-        background-color: black;
-        opacity: 0.5;
+        background-color: #0e192d;
+        
       }  
- .specialists h3,h5 {
-     opacity: 0.9;
- }     
-
 .treatment_doctor_image h3,h5 {
     color: white;
     line-height: 1px;
@@ -275,7 +267,7 @@ strong {
 /* Exclusive Services */
 
 .services {
-    background-color: #efeff5;
+    background-color: #f3f3f3;
     text-align: center;
     padding-bottom: 25px;
 }  
@@ -284,13 +276,14 @@ strong {
     font-weight: bold;
     padding-top: 20px;
     text-align: center;
+    color: #23283b;
 }
 .services p {
-    font-family:  monospace;
+    
     font-size: 15px;
-    font-weight: 400;
-    margin: 5px;
+    margin: 1rem;
     text-align: center;
+    color: #606372;
 }
 .mainbox{
     align-items: center;
@@ -315,23 +308,20 @@ strong {
 .smallbox h3 {
     text-align: center;
     font-size: 15px;
-    color: black;
+    color: #616161;
 }
 
 /* help section */
 .help {
-    background-color: #8fcaf1;
+    background-color: #7ab0d4;
     padding: 1rem;
     align-items: center;
-    
-    
     text-align: center;
 }
 .help p {
     color: #021433;
-    font-family:  monospace;
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
 }
 .help h2 {
     font-weight: bold;
@@ -339,20 +329,19 @@ strong {
     color: white;
 }
 .help button {
-  
-  background-color: #0099ff ;
-  width: 12rem;
-  height: 3rem;
-  color: white;
+  background-color:#0173b2;
+  color: #fbf5ff;
   font-size: 15px;
   outline: none;
+  border: none;
   margin-bottom: 20px;
-  border-radius: 10px;
+  padding:0.5rem 1rem;
+  border-radius: 5px;
 }
 
 /* footer */
 .footer {
-    background-color: #021433;
+    background-color: #22263f;
     padding: 1rem;
     text-align: center;
     
@@ -363,27 +352,27 @@ strong {
     
 }
 .footer ul li {
-    color: #cccccc;
+    color: #cccbc9;
     padding: 10px;
     font-size: 1rem;
     text-align: center;
 }
 .footer p {
     padding-bottom: 20px;
-    color: #cccccc;
+    color: #cccbc9;
     font-size: 1rem;
     text-align: center;
 }
 .social {
     text-align: center;
-    color: #cccccc;
+    color: #cccbc9;
     font-size: 1rem;
 
 
 }
 .social i {
     padding: 10px;
-    color: #cccccc;
+    color: #cccbc9;
     font-size: 1rem;
 }
 .footer img{
