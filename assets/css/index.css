@@ -224,7 +224,7 @@ strong {
       font-style: normal;
       letter-spacing: 0px;
       text-align: left;
-      line-height: 0px;
+      line-height: 5px;
       margin-left: 10px;
       padding: 1px;
       color: black;
@@ -250,11 +250,12 @@ strong {
 .treatment_doctor_image{
     position: relative;
     text-align: center;
+    margin: 1rem;
     
      }
 .specialists {
         position: absolute;
-        bottom: 8px;
+        bottom: 5px;
         width: 90%; 
         margin-left:5%;
         background-color: black;
@@ -363,26 +364,26 @@ strong {
 .footer ul li {
     color: #cccccc;
     padding: 10px;
-    font-size: 12px;
+    font-size: 1rem;
     text-align: center;
 }
 .footer p {
     padding-bottom: 20px;
     color: #cccccc;
-    font-size: 12px;
+    font-size: 1rem;
     text-align: center;
 }
 .social {
     text-align: center;
     color: #cccccc;
-    font-size: 12px;
+    font-size: 1rem;
 
 
 }
 .social i {
     padding: 10px;
     color: #cccccc;
-    font-size: 12px;
+    font-size: 1rem;
 }
 .footer img{
     
