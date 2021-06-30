@@ -114,7 +114,7 @@ select {
   text-align: center;
 }
 figure {
-  margin: .4em;
+  padding: .4rem;
 }
 img {
   width: 100%;

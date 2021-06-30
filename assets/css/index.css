@@ -212,11 +212,12 @@ strong {
 .doctor_container {
     position: relative;
     text-align: center;
-    margin: 0.5rem;
-    padding-bottom: 5rem;
+    margin: 1rem 1rem 0.5rem 1rem;
+    
 
   }
 .doctor_image {
+    position: absolute;
     width: 100%;
     max-height: 20rem;
 }
@@ -225,11 +226,10 @@ strong {
     max-height: 20rem;
 }  
 .intro {
-    position: absolute;
+    position: relative;
     bottom: 0.8rem;
     background-color: white;
     width: 100%;
-
   }
   
 .intro h3 {
@@ -286,8 +286,9 @@ strong {
     margin: 1rem;
      }
 .treatment_doctor_image img {
-    
-}     
+    height: 20rem;
+    width: 20rem;
+}    
 .specialists {
         position: absolute;
         bottom: 5px;
