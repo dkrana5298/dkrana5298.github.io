@@ -116,10 +116,14 @@
 }
 /* How it work */
 #how_it_work_container {
+<<<<<<< HEAD
     padding: 1rem 0 ;
 }
 .how_it_work_container {
     padding: 0.5rem;
+=======
+    padding: 0;
+>>>>>>> 551090d18553a0c8fc8a61bf8383f7fbfcbe3295
 }
 .how_it_work_container h2{
     text-align: center;
@@ -264,10 +268,14 @@ strong {
   }
   /* Featured medical treatment */
   #medical_treatment {
+<<<<<<< HEAD
     padding: 1rem 0 ;
   }
   .medical_treatment {
       padding: 0.5rem;
+=======
+    padding: 0 ;
+>>>>>>> 551090d18553a0c8fc8a61bf8383f7fbfcbe3295
   }
   .medical_treatment h2{
     font-family: Arial, Helvetica, sans-serif;
@@ -367,7 +375,11 @@ strong {
 
 /* help section */
 .help_section {
+<<<<<<< HEAD
     padding:  0 ;
+=======
+    padding: 0 ;
+>>>>>>> 551090d18553a0c8fc8a61bf8383f7fbfcbe3295
 }
 .help {
     background-color: #7ab0d4;
@@ -401,7 +413,11 @@ strong {
 
 /* footer */
 .footer_section {
+<<<<<<< HEAD
     padding:  0 ;
+=======
+    padding: 0 ;
+>>>>>>> 551090d18553a0c8fc8a61bf8383f7fbfcbe3295
 }
 .footer {
     background-color: #22263f;
