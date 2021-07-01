@@ -30,7 +30,7 @@
 }
 /* input search for doctor and city */
 #input_container {
-    padding: 1rem;
+    padding: 1rem 0;
 }
 .input_container {
     background-color: #93bede;
@@ -116,7 +116,7 @@
 }
 /* How it work */
 #how_it_work_container {
-    padding: 0 1rem;
+    padding: 0;
 }
 .how_it_work_container h2{
     text-align: center;
@@ -179,7 +179,7 @@ strong {
 }
 /*world class experts doctor */
 #word_class_doctor {
-    padding: 1rem 1rem 0 1rem;
+    padding: 1rem 0 0 0;
 }
 .world_class_doctor {
     background-color: #001a33;
@@ -261,7 +261,7 @@ strong {
   }
   /* Featured medical treatment */
   #medical_treatment {
-    padding: 0 1rem 0 1rem;
+    padding: 0 ;
   }
   .medical_treatment h2{
     font-family: Arial, Helvetica, sans-serif;
@@ -313,7 +313,7 @@ strong {
 }
 /* Exclusive Services */
 #services {
-    padding: 1rem 1rem 0 1rem;
+    padding: 1rem 0 0 0;
 }
 .services {
     background-color: #f3f3f3;
@@ -362,7 +362,7 @@ strong {
 
 /* help section */
 .help_section {
-    padding: 0 1rem;
+    padding: 0 ;
 }
 .help {
     background-color: #7ab0d4;
@@ -397,7 +397,7 @@ strong {
 
 /* footer */
 .footer_section {
-    padding: 0  1rem;
+    padding: 0 ;
 }
 .footer {
     background-color: #22263f;
