@@ -103,6 +103,7 @@
     margin-top: 8px;
     margin-left: 0px;
 }
+/*
 .input_container button {
     align-self: center;
     background-color: #151e3b;
@@ -114,16 +115,14 @@
     outline: none;
     padding: 10px 2.5rem ;
 }
+        */
 /* How it work */
 #how_it_work_container {
-<<<<<<< HEAD
+
     padding: 1rem 0 ;
 }
 .how_it_work_container {
     padding: 0.5rem;
-=======
-    padding: 0;
->>>>>>> 551090d18553a0c8fc8a61bf8383f7fbfcbe3295
 }
 .how_it_work_container h2{
     text-align: center;
@@ -227,10 +226,12 @@ strong {
     position: absolute;
     width: 100%;
     max-height: 25rem;
+    
 }
 .doctor_container img {
     width: 100%;
     max-height: 25rem;
+    object-fit: cover;
 }  
 .intro {
     position: relative;
@@ -268,14 +269,11 @@ strong {
   }
   /* Featured medical treatment */
   #medical_treatment {
-<<<<<<< HEAD
+
     padding: 1rem 0 ;
   }
   .medical_treatment {
       padding: 0.5rem;
-=======
-    padding: 0 ;
->>>>>>> 551090d18553a0c8fc8a61bf8383f7fbfcbe3295
   }
   .medical_treatment h2{
     font-family: Arial, Helvetica, sans-serif;
@@ -302,6 +300,7 @@ strong {
 .treatment_doctor_image img {
     height: 20rem;
     width: 20rem;
+    object-fit: cover;
 }    
 .specialists {
         position: absolute;
@@ -375,12 +374,9 @@ strong {
 
 /* help section */
 .help_section {
-<<<<<<< HEAD
-    padding:  0 ;
-=======
     padding: 0 ;
->>>>>>> 551090d18553a0c8fc8a61bf8383f7fbfcbe3295
-}
+
+  }
 .help {
     background-color: #7ab0d4;
     padding: 2rem;
@@ -413,11 +409,9 @@ strong {
 
 /* footer */
 .footer_section {
-<<<<<<< HEAD
-    padding:  0 ;
-=======
+
     padding: 0 ;
->>>>>>> 551090d18553a0c8fc8a61bf8383f7fbfcbe3295
+
 }
 .footer {
     background-color: #22263f;

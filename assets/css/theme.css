@@ -70,12 +70,17 @@ p {
     text-align: center;
 
 }
-button {
-    text-align: center;
-    background-color: #000033;
-    color: white;
-    font-size: 1rem;
-    
+/* search button */
+.search_button {
+  align-self: center;
+  background-color: #151e3b;
+  color: #cfd7e2;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+  border: none;
+  outline: none;
+  padding: 10px 2.5rem ;
 }
 /* for login signup and otp */
 login_button {
@@ -88,14 +93,14 @@ login_button {
   margin-bottom: 1.25rem;
 }
 /* help section button */
-help_button {
-  height: auto;
-  margin-top: .7rem;
+.help_button {
+  background-color:#0173b2;
+  color: #fbf5ff;
   font-size: 1rem;
-  padding: 1rem 4rem;
-  border-radius: 5px;
+  outline: none;
   border: none;
-  background-color: #008ae6;
+  padding: 0.8rem 1rem;
+  border-radius: 5px;
 }
 
 ul,ol {
