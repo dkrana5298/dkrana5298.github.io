@@ -10,7 +10,7 @@
 
 /* navigation bar */
 .navbar {
-    padding: 1rem 1rem 0 1rem;
+    padding: 1rem ;
     
 }
 .navbar img {
@@ -30,13 +30,13 @@
 }
 /* input search for doctor and city */
 #input_container {
-    padding: 1rem 0;
+    padding: 0.5rem 0;
 }
 .input_container {
     background-color: #93bede;
     align-self: center;
     text-align: center;
-    padding: 0.5rem;
+    
     
 }
 .input_container h1 {
@@ -118,12 +118,9 @@
         */
 /* How it work */
 #how_it_work_container {
-
     padding: 1rem 0 ;
 }
-.how_it_work_container {
-    padding: 0.5rem;
-}
+
 .how_it_work_container h2{
     text-align: center;
     color: #00001a;
@@ -174,8 +171,8 @@
     width:90%;
     padding: 1.5rem 0 1rem 0;
 }
-.image {
-    text-align: center;
+#fix_p {
+    padding-bottom: 0;
 }
 strong {
     color: #bfbfbf;
@@ -184,9 +181,7 @@ strong {
     padding-right: 1rem;
 }
 /*world class experts doctor */
-#word_class_doctor {
-    padding: 0 0 0 0;
-}
+
 .world_class_doctor {
     background-color: #001a33;
     margin-bottom: 1rem;
@@ -203,7 +198,7 @@ strong {
  text-align: center;
  text-transform: capitalize;
  font-weight: bolder;
- padding: 1.5rem 1rem 0 1rem;
+ padding: 2rem 1rem 0 1rem;
  
 }
 .world_class_doctor p {
@@ -239,6 +234,7 @@ strong {
     bottom: 0.8rem;
     background-color: white;
     width: 100%;
+    border-bottom: 5px solid #abdae4;
   }
   
 .intro h3 {
@@ -246,6 +242,7 @@ strong {
       text-align: left;
       font-size: 1.1rem;
       padding: 0.5rem 0 0.3rem 0;
+      font-family: Arial, Helvetica, sans-serif;
 }
   .intro h3::before {
       color: #0173b1;
@@ -270,7 +267,6 @@ strong {
   }
   /* Featured medical treatment */
   #medical_treatment {
-
     padding:  0 ;
   }
   .medical_treatment {
@@ -283,7 +279,7 @@ strong {
     font-weight: bolder;
     text-align: center;
     color: #222840;
-    padding: 1rem 1rem 0 1rem;
+    padding: 0.5rem 1rem 0 1rem;
       
   }
   .medical_treatment p{
@@ -307,7 +303,7 @@ strong {
         bottom: 5px;
         width: 90%; 
         margin-left:5%;
-        background-image: linear-gradient(transparent,black);
+        background-image: linear-gradient(transparent,#0a0d1c,#0c0f22);
         
       }  
 .treatment_doctor_image h3 {
