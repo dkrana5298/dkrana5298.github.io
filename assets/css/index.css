@@ -30,13 +30,13 @@
 }
 /* input search for doctor and city */
 #input_container {
-    padding: 0.5rem 0;
+    padding: 0px;
 }
 .input_container {
     background-color: #93bede;
     align-self: center;
     text-align: center;
-    
+    padding: 0.5rem 0;
     
 }
 .input_container h1 {
@@ -118,7 +118,7 @@
         */
 /* How it work */
 #how_it_work_container {
-    padding: 1rem 0 ;
+    padding:1.5rem 0;
 }
 
 .how_it_work_container h2{
@@ -169,7 +169,7 @@
     align-content: center;
     text-align: center;
     width:90%;
-    padding: 1.5rem 0 1rem 0;
+    padding: 1.5rem 0 1rem 1.5rem;
 }
 #fix_p {
     padding-bottom: 0;
@@ -312,7 +312,7 @@ strong {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
     line-height: 1rem;
-    padding: 0.5rem 0 0.3rem 1rem;
+    padding: 2rem 0 0.3rem 1rem;
 }
 .treatment_doctor_image h5 {
     color: white;
@@ -336,12 +336,15 @@ strong {
     padding-top: 20px;
     text-align: center;
     color: #23283b;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
 }
 .services p {
     font-size: 1rem;
     color: #606372;
     padding: 0.5rem 1rem ;
     letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .mainbox{
     align-items: center;
